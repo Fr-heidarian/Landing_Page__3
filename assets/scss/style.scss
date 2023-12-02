@@ -24,4 +24,11 @@ body {
   p {
     font-size: 0.85em !important;
   }
+  small {
+    font-size: 0.75em !important;
+    span {
+      text-decoration: underline;
+      text-underline-position: under;
+    }
+  }
 }

@@ -18,3 +18,10 @@ body .btn-color {
 body p {
   font-size: 0.85em !important;
 }
+body small {
+  font-size: 0.75em !important;
+}
+body small span {
+  text-decoration: underline;
+  text-underline-position: under;
+}
