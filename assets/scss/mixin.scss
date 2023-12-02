@@ -1,0 +1,25 @@
+@use "colors" as color;
+
+// Semicircle and Circle
+@mixin rounded-image-box(
+  $image-url,
+  $width,
+  $height,
+  $border-radius,
+  $background-color
+)
+ {
+  @if $image-url {
+    background-image: url(#{$image-url});
+  } @else {
+    background-color: $background-color;
+  }
+
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: $width;
+  height: $height;
+  border-radius:$border-radius;
+}
+
