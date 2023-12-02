@@ -5,3 +5,23 @@
 // Add Partials
 @import "./colors.scss";
 @import "./mixin.scss";
+
+// General
+body {
+  background-color: $body-color;
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 70%;
+    margin: auto;
+  }
+  .btn-color {
+    background-color: $bg-color;
+    color: $bg-white;
+    font-size: 0.85em;
+    letter-spacing: 0.15em;
+  }
+  p {
+    font-size: 0.85em !important;
+  }
+}
