@@ -32,3 +32,21 @@ body {
     }
   }
 }
+// Hero Section
+#hero {
+  background-color: $bg-white;
+  .rounded-image-box {
+    float: right;
+    @include rounded-image-box(
+      "../images/city.jpg",
+      20em,
+      40em,
+      0 100em 100em 0,
+      null
+    );
+  }
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}

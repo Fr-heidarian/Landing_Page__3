@@ -25,3 +25,22 @@ body small span {
   text-decoration: underline;
   text-underline-position: under;
 }
+
+#hero {
+  background-color: white;
+}
+#hero .rounded-image-box {
+  float: right;
+  background-image: url(../images/city.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20em;
+  height: 40em;
+  border-radius: 0 100em 100em 0;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
