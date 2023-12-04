@@ -55,7 +55,7 @@ body {
   .rounded-image-box {
     float: right;
     @include rounded-image-box(
-      "../images/city.jpg",
+      "../images/hero.jpg",
       20em,
       40em,
       0 100em 100em 0,
@@ -66,4 +66,30 @@ body {
 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+}
+
+/* For-box-after-hero Section */
+.four-box-after-hero {
+  .rounded-image-box {
+    @include rounded-image-box(
+      "../images/after-hero.jpg",
+      43em,
+      21em,
+      0 0 100em 100em,
+      null
+    );
+  }
+  .four-boxes {
+    .row {
+      .card {
+        border-bottom: 8px solid $bg-color !important;
+        border-bottom-left-radius: 12px !important;
+        border-bottom-right-radius: 12px !important;
+        box-shadow: 0 5px 15px $box-shadow-color;
+      }
+      .card-body {
+        font-size: 1em;
+      }
+    }
+  }
 }

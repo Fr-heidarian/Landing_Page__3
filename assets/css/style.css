@@ -46,7 +46,7 @@ body small span {
 }
 #hero .rounded-image-box {
   float: right;
-  background-image: url(../images/city.jpg);
+  background-image: url(../images/hero.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -58,4 +58,24 @@ body small span {
 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+}
+
+/* For-box-after-hero Section */
+.four-box-after-hero .rounded-image-box {
+  background-image: url(../images/after-hero.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 43em;
+  height: 21em;
+  border-radius: 0 0 100em 100em;
+}
+.four-box-after-hero .four-boxes .row .card {
+  border-bottom: 8px solid rgb(178, 170, 147) !important;
+  border-bottom-left-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.four-box-after-hero .four-boxes .row .card-body {
+  font-size: 1em;
 }
