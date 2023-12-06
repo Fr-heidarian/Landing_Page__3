@@ -93,3 +93,34 @@ h1 {
     }
   }
 }
+// Three-boxes Section
+#three-boxes {
+  .three-boxes {
+    top: 1em;
+    .card {
+      border-radius: 12px !important;
+      box-shadow: 0 5px 15px $box-shadow-color;
+    }
+    .card-title-number {
+      color: $bg-color;
+      font-size: 2em !important;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700 !important;
+    }
+    .card-title {
+      font-family: "Raleway", sans-serif;
+    }
+    .card-body {
+      font-size: 1.15em;
+    }
+  }
+  .rounded-image-box {
+    @include rounded-image-box(
+      "../images/after-3-box.jpg",
+      17em,
+      33em,
+      100em 0 0 100em,
+      null
+    );
+  }
+}

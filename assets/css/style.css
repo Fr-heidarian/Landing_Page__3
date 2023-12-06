@@ -79,3 +79,32 @@ h1 {
 .four-box-after-hero .four-boxes .row .card-body {
   font-size: 1em;
 }
+
+#three-boxes .three-boxes {
+  top: 1em;
+}
+#three-boxes .three-boxes .card {
+  border-radius: 12px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+#three-boxes .three-boxes .card-title-number {
+  color: rgb(178, 170, 147);
+  font-size: 2em !important;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700 !important;
+}
+#three-boxes .three-boxes .card-title {
+  font-family: "Raleway", sans-serif;
+}
+#three-boxes .three-boxes .card-body {
+  font-size: 1.15em;
+}
+#three-boxes .rounded-image-box {
+  background-image: url(../images/after-3-box.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 17em;
+  height: 33em;
+  border-radius: 100em 0 0 100em;
+}
