@@ -104,7 +104,20 @@ h1 {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 17em;
-  height: 33em;
+  width: 22em;
+  height: 40em;
   border-radius: 100em 0 0 100em;
+}
+
+#semicircle-part {
+  margin-top: 15rem !important;
+}
+#semicircle-part h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+.vertical-column {
+  width: 80px;
+  height: 350px;
+  background-color: rgb(178, 170, 147);
 }

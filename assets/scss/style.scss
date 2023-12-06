@@ -117,10 +117,22 @@ h1 {
   .rounded-image-box {
     @include rounded-image-box(
       "../images/after-3-box.jpg",
-      17em,
-      33em,
+      22em,
+      40em,
       100em 0 0 100em,
       null
     );
   }
+}
+// Semicircle Part after 3-boxes
+#semicircle-part {
+  margin-top: 15rem !important;
+  h3 {
+    font-family: "Raleway", sans-serif;
+  }
+}
+.vertical-column {
+  width: 80px;
+  height: 350px;
+  background-color: $bg-color;
 }
