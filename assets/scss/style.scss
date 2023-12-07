@@ -136,3 +136,48 @@ h1 {
   height: 350px;
   background-color: $bg-color;
 }
+// About us Section
+#about-us-section {
+  .about-content {
+    background-color: $body-color;
+    bottom: -20px;
+    right: -80px;
+    left: 200px;
+  }
+  // rounded-circle-image
+  #rounded-circle-image {
+    &.rounded-image-box {
+      @include rounded-image-box(
+        "../images/about-us.jpg",
+        30em,
+        30em,
+        50%,
+        null
+      );
+    }
+  }
+  // rounded-circle-right
+  #rounded-circle-right {
+    &.rounded-image-box {
+      @include rounded-image-box(null, 15em, 15em, 50%, $bg-color);
+      top: -10px;
+      right: 30px;
+    }
+  }
+  .about-us-3-boxes {
+    .card {
+      border-radius: 12px !important;
+    }
+  }
+  .about-us-3-boxes .col-md-4 {
+    &:nth-child(1) .card,
+    &:nth-child(3) .card {
+      background-color: $bg-color;
+      color: $bg-white;
+    }
+    &:nth-child(2) .card {
+      background-color: $bg-white;
+      color: $bg-color;
+    }
+  }
+}

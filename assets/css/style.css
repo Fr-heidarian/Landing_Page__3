@@ -121,3 +121,41 @@ h1 {
   height: 350px;
   background-color: rgb(178, 170, 147);
 }
+
+#about-us-section .about-content {
+  background-color: #e6e6e6;
+  bottom: -20px;
+  right: -80px;
+  left: 200px;
+}
+#about-us-section #rounded-circle-image.rounded-image-box {
+  background-image: url(../images/about-us.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30em;
+  height: 30em;
+  border-radius: 50%;
+}
+#about-us-section #rounded-circle-right.rounded-image-box {
+  background-color: rgb(178, 170, 147);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  top: -10px;
+  right: 30px;
+}
+#about-us-section .about-us-3-boxes .card {
+  border-radius: 12px !important;
+}
+#about-us-section .about-us-3-boxes .col-md-4:nth-child(1) .card, #about-us-section .about-us-3-boxes .col-md-4:nth-child(3) .card {
+  background-color: rgb(178, 170, 147);
+  color: white;
+}
+#about-us-section .about-us-3-boxes .col-md-4:nth-child(2) .card {
+  background-color: white;
+  color: rgb(178, 170, 147);
+}
