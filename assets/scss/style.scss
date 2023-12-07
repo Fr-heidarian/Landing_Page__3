@@ -181,3 +181,32 @@ h1 {
     }
   }
 }
+// Man-person Section
+#man-person {
+  background-color: $bg-white;
+  .card {
+    background-color: $bg-color;
+    color: $bg-white;
+    border: none !important;
+    border-radius: 12px;
+    padding: 2em;
+    height: 34em;
+    width: 100%;
+  }
+  h1 {
+    font-size: 3.5em !important;
+    font-family: "Raleway", sans-serif;
+  }
+  p {
+    font-weight: 3em !important;
+  }
+  .rounded-image-box {
+    @include rounded-image-box(
+      "../images/man-person.jpg",
+      18em,
+      35em,
+      0 100em 100em 0,
+      null
+    );
+  }
+}

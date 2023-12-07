@@ -159,3 +159,32 @@ h1 {
   background-color: white;
   color: rgb(178, 170, 147);
 }
+
+#man-person {
+  background-color: white;
+}
+#man-person .card {
+  background-color: rgb(178, 170, 147);
+  color: white;
+  border: none !important;
+  border-radius: 12px;
+  padding: 2em;
+  height: 34em;
+  width: 100%;
+}
+#man-person h1 {
+  font-size: 3.5em !important;
+  font-family: "Raleway", sans-serif;
+}
+#man-person p {
+  font-weight: 3em !important;
+}
+#man-person .rounded-image-box {
+  background-image: url(../images/man-person.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 18em;
+  height: 35em;
+  border-radius: 0 100em 100em 0;
+}
