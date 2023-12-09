@@ -240,3 +240,36 @@ h1 {
     }
   }
 }
+// Get in Touch Section
+#get-in-touch {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../images/building.jpg);
+  background-position: center;
+  background-size: cover;
+
+  .get-in-touch-box {
+    background-color: #f6f7fc;
+  }
+  .get-in-touch-left p {
+    &:nth-child(2) {
+      color: $small-title;
+    }
+    &:nth-child(3) {
+      color: black;
+    }
+  }
+  .get-in-touch-right {
+    .rounded-image-box {
+      @include rounded-image-box(
+        "../images/contact.jpg",
+        20em,
+        11em,
+        100em 100em 0 0,
+        null
+      );
+    }
+    i {
+      color: $bg-color !important;
+    }
+  }
+}

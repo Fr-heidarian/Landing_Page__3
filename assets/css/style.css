@@ -216,3 +216,30 @@ h1 {
   color: white;
   border-radius: 50%;
 }
+
+#get-in-touch {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/building.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#get-in-touch .get-in-touch-box {
+  background-color: #f6f7fc;
+}
+#get-in-touch .get-in-touch-left p:nth-child(2) {
+  color: #a0a0a0;
+}
+#get-in-touch .get-in-touch-left p:nth-child(3) {
+  color: black;
+}
+#get-in-touch .get-in-touch-right .rounded-image-box {
+  background-image: url(../images/contact.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20em;
+  height: 11em;
+  border-radius: 100em 100em 0 0;
+}
+#get-in-touch .get-in-touch-right i {
+  color: rgb(178, 170, 147) !important;
+}
