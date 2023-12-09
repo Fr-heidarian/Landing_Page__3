@@ -191,7 +191,7 @@ h1 {
     border-radius: 12px;
     padding: 2em;
     height: 34em;
-    width: 100%;
+    width: 100% !important;
   }
   h1 {
     font-size: 3.5em !important;
@@ -208,5 +208,35 @@ h1 {
       0 100em 100em 0,
       null
     );
+  }
+}
+// Meet Our Amazing Team Section
+#our-team {
+  background-color: $bg-color;
+  .our-team {
+    color: $bg-white;
+  }
+  .media {
+    background-color: $bg-white;
+    border-radius: 12px;
+    margin-bottom: 2em;
+    small {
+      color: #a0a0a0;
+    }
+    h5 {
+      color: $bg-color;
+    }
+    .media-icon {
+      i {
+        display: inline-flex;
+        width: 25px;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+        background-color: $bg-color;
+        color: $bg-white;
+        border-radius: 50%;
+      }
+    }
   }
 }
